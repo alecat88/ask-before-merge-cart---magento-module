@@ -2,17 +2,17 @@
     <global>
         <models>
             <cartpopup>
-            <class>lalatteria_Cartpopup_Model</class>
+            <class>Lalatteria_Cartpopup_Model</class>
             </cartpopup>
         </models>
         <blocks>
             <cartpopup>
-            <class>lalatteria_Cartpopup_Block</class>
+            <class>Lalatteria_Cartpopup_Block</class>
             </cartpopup>
         </blocks>
         <helpers>
             <cartpopup>
-            <class>lalatteria_Cartpopup_Helper</class>
+            <class>Lalatteria_Cartpopup_Helper</class>
             </cartpopup>
         </helpers>
         <events>

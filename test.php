@@ -10,5 +10,5 @@ require_once 'app/Mage.php';
 
 Mage::app();
 
-$popup = Mage::getModel("lalatteria/Popup");
+$popup = Mage::getModel("Lalatteria/Popup");
 $popup->sayHello();

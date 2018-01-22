@@ -5,7 +5,7 @@
  * Date: 22/01/2018
  * Time: 00:38
  */
-class lalatteria_CartPopup_Model_Observer{
+class Lalatteria_CartPopup_Model_Observer{
 
     public function showPopup($observer){
 

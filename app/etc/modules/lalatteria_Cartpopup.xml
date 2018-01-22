@@ -1,8 +1,8 @@
 <config>
     <moduless>
-        <lalatteria_Cartpopup>
+        <Lalatteria_Cartpopup>
             <active>true</active>
             <codePool>local</codePool>
-        </lalatteria_Cartpopup>
+        </Lalatteria_Cartpopup>
     </moduless>
 </config>

@@ -6,7 +6,7 @@
  * Time: 23:29
  */
 
-class lalatteria_Cartpopup_Model_Popup
+class Lalatteria_Cartpopup_Model_Popup
 {
     public function sayHello(){
         echo "hi";
