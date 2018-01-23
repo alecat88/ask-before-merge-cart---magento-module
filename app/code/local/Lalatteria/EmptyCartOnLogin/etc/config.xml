@@ -1,0 +1,27 @@
+
+        <?xml version="1.0"?>
+<config>
+    <modules>
+        <Lalatteria_EmptyCartOnLogin>
+            <version>0.0.1</version>
+        </Lalatteria_EmptyCartOnLogin>
+    </modules>
+    <global>
+        <models>
+            <emptycartonlogin>
+                <class>Lalatteria_EmptyCartOnLogin_Model</class>
+            </emptycartonlogin>
+        </models>
+        <events>
+            <customer_login>
+                <observers>
+                    <Lalatteria_emptycartonlogin_observer>
+                        <type>singleton</type>
+                        <class>emptycartonlogin/observer</class>
+                        <method>emptyCartOnLogin</method>
+                    </Lalatteria_emptycartonlogin_observer>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+</config>

@@ -8,7 +8,7 @@
 class Lalatteria_CartPopup_Model_Observer{
 
     public function showPopup($observer){
-
+        echo "showpopup";
         $customer = $customer->getCustomer();
         Mage::log($customer->getName() . " has logged in" , nulln , "customer.log");
 
@@ -23,8 +23,11 @@ class Lalatteria_CartPopup_Model_Observer{
         //$quote = Mage::getSingleton('checkout/session')->getQuote();
         //$quote->delete();
     }
-
-    public function stopCartMerge(Varien_Event_Observer $observer) {
+    /*public function stopCartMerge(Varien_Event_Observer $observer) {
+        echo "stopcartmerge";
+    }*/
+    public function stopCartMerge($observer) {
+        Mage::getSingleton('checkout/cart')->truncate()->save();
         if ($observer->getSource()->hasItems()) {
             if (is_object($observer->getQuote()) && $observer->getQuote()->getId()) {
                 $observer->getQuote()->removeAllItems();

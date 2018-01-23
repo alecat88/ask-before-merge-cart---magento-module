@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <config>
     <global>
         <models>
@@ -18,11 +19,11 @@
         <events>
             <sales_quote_merge_before>
                 <observers>
-                    <my_stopcartmerge_observer>
+                    <Lalatteria_Cartpopup_observer>
                         <type>singleton</type>
-                        <class>stopcartmerge/observer</class>
+                        <class>cartpopup/observer</class>
                         <method>stopCartMerge</method>
-                    </my_stopcartmerge_observer>
+                    </Lalatteria_Cartpopup_observer>
                 </observers>
             </sales_quote_merge_before>
         </events>

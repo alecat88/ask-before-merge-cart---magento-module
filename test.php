@@ -10,5 +10,7 @@ require_once 'app/Mage.php';
 
 Mage::app();
 
-$popup = Mage::getModel("Lalatteria/Popup");
+//$popup = Mage::getModel("Lalatteria/Popup");
+$popup = new Lalatteria_Cartpopup_Model_Popup;
+
 $popup->sayHello();

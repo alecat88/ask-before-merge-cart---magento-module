@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Lalatteria_Cartpopup>
+        <Lalatteria_EmptyCartOnLogin>
             <active>true</active>
             <codePool>local</codePool>
-        </Lalatteria_Cartpopup>
+        </Lalatteria_EmptyCartOnLogin>
     </modules>
 </config>
